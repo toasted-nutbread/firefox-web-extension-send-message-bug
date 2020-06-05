@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox sendMessage Bug",
+  "version": "0.0.0",
+  "permissions": [],
+  "background": {"page": "bg.html"},
+  "options_ui": {"page": "settings.html", "open_in_tab": true},
+  "applications": {"gecko": {"id": "test@firefox-web-extension-send-message-bug"}}
+}
